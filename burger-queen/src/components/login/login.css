@@ -1,0 +1,24 @@
+h1 {
+  font-family: 'Ultra', serif;
+  font-size: 700%;
+  color: black;
+}
+
+body {
+  background-color: #FD907B !important;
+  background: url(../../assets/hamburger-576419_1280.png) no-repeat center -120%;
+}
+
+.title {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 7%;
+}
+
+/* a {
+  display: inline;
+  margin-left: 90%;
+  font-size: 150%
+} */
+
+
