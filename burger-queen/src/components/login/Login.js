@@ -17,20 +17,11 @@ class Login extends Component {
     this.setState({[e.target.name]:e.target.value});
   }
 
-  // routeToOrder = () => {
-  //   console.log('HOLI')
-  //   return <Redirect to = '/order' />;
-  //   //return rou;
-  // }
-
   login = (e) => {
     e.preventDefault();
     firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((user) => {
       console.log(user);
       this.setState ({user});
-      // if(user) {
-      //   this.routeToOrder();
-      // }
     })
     .catch((error) => {
       console.log(error);
@@ -43,7 +34,7 @@ class Login extends Component {
         <Redirect to = '/order' />
       )
     } else {
-      return ( // if this.user y redirect
+      return ( 
       <div className="body-login">
         <header className="container title">
           <h1>Burger Queen</h1>
