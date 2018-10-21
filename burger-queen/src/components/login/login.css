@@ -4,10 +4,11 @@ h1 {
   color: black;
 }
 
-body {
-  background-color: #FD907B !important;
+/* body {
+  background-color: #FD907B !important; 
   background: url(../../assets/hamburger-576419_1280.png) no-repeat center -120%;
-}
+  height: 100vh;
+} */
 
 .title {
   text-align: center;

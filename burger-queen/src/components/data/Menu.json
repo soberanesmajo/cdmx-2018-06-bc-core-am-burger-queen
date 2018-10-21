@@ -1,0 +1,24 @@
+{
+    "desayuno": {
+        "Café americano": 5,
+        "Café con leche": 7,
+        "Sandwich de jamón con queso": 10,
+        "Jugo natural": 7
+    },
+    "comida": {
+        "Hamburguesa sencilla de res": 10,
+        "Hamburguesa doble de res": 15,
+        "Hamburguesa sencilla de pollo": 10,
+        "Hamburguesa doble de pollo": 15,
+        "Hamburguesa sencilla vegetariana": 10,
+        "Hamburguesa doble vegetariana": 15,
+        "+ Papas fritas": 5,
+        "+ Onion Rings": 5,
+        "Botella de agua de 500ml": 5,
+        "Botella de agua de 750ml": 8,
+        "Refresco de 500ml": 7,
+        "Refresco de 750ml": 10,
+        "+ Queso": 1,
+        "+ Huevo": 1
+    }
+}
