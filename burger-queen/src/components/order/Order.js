@@ -1,9 +1,14 @@
 import React from 'react';
+import Buttons from '../buttons/Buttons';
+import './order.css';
+import Navbar from '../navbar/Navbar';
+
 
 const Order = () => {
   return (
     <div>
-      <h1> Holi, aquí va la toma de pedidos</h1>
+      <Navbar/>
+      <Buttons/>
     </div>
   );
 };

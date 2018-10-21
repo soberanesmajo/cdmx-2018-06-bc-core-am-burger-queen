@@ -28,6 +28,19 @@ class Login extends Component {
     })
   }
 
+  componentDidMount(){
+    document.body.style.backgroundImage = 'url(../../assets/hamburger-576419_1280.png) no-repeat center -120%';      
+    document.body.style.backgroundColor = '#FD907B'; // Set the style
+  }
+  
+  // componentWillMount(){
+  // }
+
+
+//   componentWillUnmount(){
+//     document.body.style.backgroundImage = 'url(../../assets/hamburger-576419_1280.png) no-repeat center -120%';    
+// }
+
   render () {
     if (this.state.user) {
       return (
