@@ -2,6 +2,7 @@
   "name": "burger-queen",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://soberanesmajo.github.io/cdmx-2018-06-bc-core-am-burger-queen",
   "dependencies": {
     "@babel/core": "7.1.0",
     "@svgr/webpack": "2.4.1",

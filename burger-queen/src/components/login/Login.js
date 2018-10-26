@@ -4,8 +4,8 @@ import firebase from '../../firebase/Firebase';
 import './login.css';
 
 class Login extends Component {
-  constructor (props) {
-    super (props);
+  constructor () {
+    super ();
     this.state = {
       email: '',
       password: '',
@@ -29,17 +29,10 @@ class Login extends Component {
   }
 
   componentDidMount(){
-    document.body.style.backgroundImage = 'url(../../assets/hamburger-576419_1280.png) no-repeat center -120%';      
-    document.body.style.backgroundColor = '#FD907B'; // Set the style
+    
+    document.body.style.backgroundImage = 'url("../../assets/hamburger-576419_1280.png") no-repeat center -120%';      
+    //document.body.style.backgroundColor = '#FD907B'; // Set the style
   }
-  
-  // componentWillMount(){
-  // }
-
-
-//   componentWillUnmount(){
-//     document.body.style.backgroundImage = 'url(../../assets/hamburger-576419_1280.png) no-repeat center -120%';    
-// }
 
   render () {
     if (this.state.user) {
